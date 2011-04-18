@@ -1,11 +1,12 @@
 body {
     font-family: Helvetica Neue, Arial, sans-serif;
     font-size: 9pt;
-    background: white;
+    color: white;
+    background: black;
 }
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -20,7 +21,7 @@ a:hover {
 #header .menu {
     margin: 0;
     padding: 0.5em;
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(255, 255, 255, 0.2);
     position: fixed;
     right: 0;
     top: 0;
@@ -103,7 +104,7 @@ table, caption {
 
 #reports div.header, #reports a.bug-row {
   display: table-row;
-  border-bottom: 1px black dotted;
+  border-bottom: 1px gray dotted;
 }
 
 #reports div.header div {
@@ -111,7 +112,7 @@ table, caption {
 }
 
 #reports a.bug-row:hover {
-    background: #f0f0f0;
+    background: rgba(255, 255, 255, 0.2);
 }
 
 #reports div.header div, #reports a.bug-row div {
@@ -153,12 +154,14 @@ table, caption {
     top: 0px;
     left: 0px;
     width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .dialog .content {
     line-height: 1.5em;
     color: white;
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.7);
     padding: 2em;
     width: 40em;
     margin: 10em auto;
